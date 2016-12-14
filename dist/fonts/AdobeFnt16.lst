@@ -1,0 +1,166 @@
+%!Adobe-FontList 1.16
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NHaasGroteskTXPro-55Rg
+FamilyName:Neue Haas Grotesk Text Pro
+StyleName:55 Roman
+MenuName:NeueHaasGroteskText Pro
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Neue Haas Grotesk Text Pro 55 Roman
+WritingScript:Roman
+OutlineFileName:\NHaasGroteskTXPro-55Rg.ttf
+DataFormat:sfntData
+FileLength:278544
+FileModTime:1326944642
+NameArray:0,Mac,18,NeueHaasGroteskText Pro
+NameArray:0,Mac,4,Neue Haas Grotesk Text Pro 55 Roman
+NameArray:0,Win,1,NeueHaasGroteskText Pro
+NameArray:0,Win,16,Neue Haas Grotesk Text Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NHaasGroteskTXPro-56It
+FamilyName:Neue Haas Grotesk Text Pro
+StyleName:56 Italic
+MenuName:NeueHaasGroteskText Pro
+StyleBits:1
+WeightClass:400
+WidthClass:5
+AngleClass:1
+FullName:Neue Haas Grotesk Text Pro 56 Italic
+WritingScript:Roman
+OutlineFileName:\NHaasGroteskTXPro-56It.ttf
+DataFormat:sfntData
+FileLength:309772
+FileModTime:1326944644
+NameArray:0,Mac,18,NeueHaasGroteskText Pro It
+NameArray:0,Mac,4,Neue Haas Grotesk Text Pro 56 Italic
+NameArray:0,Win,1,NeueHaasGroteskText Pro
+NameArray:0,Win,16,Neue Haas Grotesk Text Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NHaasGroteskTXPro-75Bd
+FamilyName:Neue Haas Grotesk Text Pro
+StyleName:75 Bold
+MenuName:NeueHaasGroteskText Pro
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Neue Haas Grotesk Text Pro 75 Bold
+WritingScript:Roman
+OutlineFileName:\NHaasGroteskTXPro-75Bd.ttf
+DataFormat:sfntData
+FileLength:304360
+FileModTime:1326944649
+NameArray:0,Mac,18,NeueHaasGroteskText Pro Bd
+NameArray:0,Mac,4,Neue Haas Grotesk Text Pro 75 Bold
+NameArray:0,Win,1,NeueHaasGroteskText Pro
+NameArray:0,Win,16,Neue Haas Grotesk Text Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:PalatinoLTStd-Bold
+FamilyName:Palatino LT Std
+StyleName:Bold
+MenuName:Palatino LT Std
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Palatino LT Std Bold
+WritingScript:Roman
+OutlineFileName:\PalatinoLTStd-Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:39724
+FileModTime:1052759906
+NameArray:0,Mac,4,Palatino LT Std Bold
+NameArray:0,Win,1,Palatino LT Std
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:PalatinoLTStd-Italic
+FamilyName:Palatino LT Std
+StyleName:Italic
+MenuName:Palatino LT Std
+StyleBits:1
+WeightClass:400
+WidthClass:5
+AngleClass:1
+FullName:Palatino LT Std Italic
+WritingScript:Roman
+OutlineFileName:\PalatinoLTStd-Italic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:41696
+FileModTime:1052759906
+NameArray:0,Mac,4,Palatino LT Std Italic
+NameArray:0,Win,1,Palatino LT Std
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:PalatinoLTStd-Light
+FamilyName:Palatino LT Std
+StyleName:Light
+MenuName:Palatino LT Std Light
+StyleBits:0
+WeightClass:300
+WidthClass:5
+AngleClass:0
+FullName:Palatino LT Std Light
+WritingScript:Roman
+OutlineFileName:\PalatinoLTStd-Light.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:37204
+FileModTime:1052759906
+NameArray:0,Mac,4,Palatino LT Std Light
+NameArray:0,Win,1,Palatino LT Std Light
+NameArray:0,Win,16,Palatino LT Std
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:PalatinoLTStd-Roman
+FamilyName:Palatino LT Std
+StyleName:Roman
+MenuName:Palatino LT Std
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Palatino LT Std Roman
+WritingScript:Roman
+OutlineFileName:\PalatinoLTStd-Roman.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:54996
+FileModTime:1052759906
+NameArray:0,Mac,18,Palatino LT Std
+NameArray:0,Mac,4,Palatino LT Std Roman
+NameArray:0,Win,1,Palatino LT Std
+%EndFont
+

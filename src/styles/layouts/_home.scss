@@ -1,0 +1,72 @@
+.homeSlider{
+  display: block;
+  margin-top: 150px;
+  color: $white;
+  margin-bottom: 150px;
+
+  h1{
+    margin: 0;
+  }
+
+  span{
+    font-size: 34rem;
+    line-height: 30rem;
+  }
+
+  p{
+    display: block;
+    margin-top: 50px;
+  }
+}
+
+.homeEvents{
+  padding-top: 250px;
+
+  .smallTitle{
+    float: left;
+  }
+
+  .sansTitle{
+    float: right;
+    color: $accent;
+    font-size: 1.2rem;
+  }
+
+  .container{
+    display: block;
+    margin-bottom: 250px;
+  }
+
+  .monthContainer{
+    border-top: 1px solid $lightGray;
+    padding-top: 15px;
+
+    h6{
+      font-family: $font;
+      text-transform: uppercase;
+      font-size: 1.3rem;
+      letter-spacing: .25rem;
+    }
+  }
+
+  .eventLink{
+    font-family: $font;
+    display: block;
+    margin-bottom: 10px;
+    color: $white;
+
+    &:hover{
+      color: $accent;
+    }
+  }
+
+  .monthsRow{
+    display: block;
+    margin-bottom: 20px;
+    height: 168px;
+
+    &:last-child{
+      margin-bottom: 250px;
+    }
+  }
+}

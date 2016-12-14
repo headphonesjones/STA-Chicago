@@ -1,0 +1,28 @@
+.sponsors{
+  padding-top: 250px;
+
+  .smallTitle{
+    display: block;
+    margin-bottom: 50px;
+  }
+
+  .sponsorImage{
+    height: 150px;
+    margin-bottom: 20px;
+    text-align: center;
+
+    img{
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+
+  .row{
+
+    &:last-child{
+      display: block;
+      margin-bottom: 250px;
+    }
+  }
+}

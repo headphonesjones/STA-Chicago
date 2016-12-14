@@ -1,0 +1,22 @@
+.featuredEventSection{
+  padding-top: 250px;
+
+  h2{
+    color: $white;
+    display: block;
+    margin-top: 75px;
+  }
+
+  .eventDesc{
+    font-family: $fontSerif;
+    font-size: 3.8rem;
+    line-height: 5rem;
+    display: block;
+    margin-bottom: 75px;
+  }
+
+  .accentLink{
+    display: block;
+    margin-bottom: 250px;
+  }
+}

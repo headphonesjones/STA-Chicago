@@ -1,0 +1,62 @@
+h1{
+
+  &.large{
+    font-size: 11rem;
+  }
+}
+
+p{
+  font-family: $font;
+}
+
+a{
+  transition: color .3s ease;
+  text-decoration: none;
+  color: $white;
+
+  &:hover{
+    color: $accent;
+  }
+  &:visited{
+    color: $accent;
+  }
+}
+
+.serifBold{
+  font-family: $fontSerifBold;
+}
+
+.serifItalic{
+  font-family: $fontSerifItalic;
+}
+
+.smallTitle{
+  text-transform: uppercase;
+  letter-spacing: .15rem;
+  margin-bottom: 10px;
+  font-family: $fontSerif;
+}
+
+.sansTitle{
+  font-family: $font;
+  text-transform: uppercase;
+  letter-spacing: .15rem;
+}
+
+.accentLink{
+  text-transform: uppercase;
+  font-family: $font;
+  color: $accent;
+  text-decoration: none;
+  font-size: 1.3rem;
+  transition: color .3s ease;
+  letter-spacing: .15rem;
+
+  &:hover{
+    color: darken($accent, 5%);
+  }
+
+  &:visited{
+    color: $accent;
+  }
+}
