@@ -63,3 +63,16 @@ hr{
   visibility: hidden;
 }
 
+.slick-slide {
+
+  width: 1200px;
+
+  &:focus, a {
+    outline: none !important;
+  }
+}
+.bottomMargin{
+  display: block;
+  width: 100%;
+  margin-bottom: 250px;
+}

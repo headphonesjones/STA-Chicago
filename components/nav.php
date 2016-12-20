@@ -2,6 +2,9 @@
     <a href="index.php">
         <img src="dist/images/logo-good.png" alt="The Society of Typographic Arts Logo" class="logo">
     </a>
+    <div class="pageTitle">
+        <span class="currentPage"><?php echo $title; ?></span>
+    </div>
     <div class="navPlus"></div>
     <a href="#">
         <div class="navMembership fourCorners"></div>

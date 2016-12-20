@@ -1,7 +1,12 @@
 h1{
+  font-size: 7rem;
 
   &.large{
     font-size: 11rem;
+  }
+
+  &.largest{
+    font-size: 13rem;
   }
 }
 
@@ -59,4 +64,8 @@ a{
   &:visited{
     color: $accent;
   }
+}
+
+.darkText{
+  color: $midGray;
 }

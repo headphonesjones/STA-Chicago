@@ -1,0 +1,219 @@
+.aboutHero{
+  display: block;
+  padding-top: 250px;
+  padding-bottom: 250px;
+
+  h2{
+    font-size: 5.5rem;
+    color: $white;
+    line-height: 7rem;
+  }
+}
+
+.missionHistory{
+  padding-top: 250px;
+
+  .six{
+    display: block;
+    margin-bottom: 250px;
+  }
+}
+
+.boardMember{
+
+  .boardMemberImage{
+    width: 100%;
+    height: 128px;
+    background-color: $lightGray;
+  }
+
+  .name{
+    font-size: 1.4rem;
+    margin-bottom: 0;
+  }
+
+  .role{
+    font-size: 1.4rem;
+  }
+}
+
+.boardMembersContainer{
+  padding-top: 250px;
+
+  .smallTitle{
+    margin-bottom: 30px;
+  }
+}
+
+
+.honoraryMembers{
+  padding-top: 250px;
+  overflow: hidden;
+  height: 800px;
+}
+
+
+.memberSlider{
+  position: relative;
+  top: 50px;
+}
+
+.alphabetFilters{
+  @include layout(26 isolate);
+
+  .filterLetter{
+    @include span(1 of 26 split);
+    font-size: 1.5rem;
+    text-align: center;
+    transition: color .3s ease;
+
+    &:hover{
+      cursor: pointer;
+      color: $accent;
+    }
+
+  }
+
+  .filterLetterDashContainer{
+    @include span(1 of 26 split);
+
+    .filterDash{
+      width: 1px;
+      position: relative;
+      top: 25px;
+      left: 24px;
+      border-bottom: 10px solid $white;
+    }
+  }
+}
+
+.yearFilters{
+  @include layout(13 isolate);
+  position: relative;
+  top: 84px;
+
+  .yearFilter{
+    @include span(1 of 13 split);
+    font-size: 1.5rem;
+    text-align: center;
+    transition: color .3s ease;
+
+    &:hover{
+      cursor: pointer;
+      color: $accent;
+    }
+  }
+  .filterLetterDashContainer{
+    @include span(1 of 13 split);
+
+    .filterDash{
+      width: 1px;
+      position: relative;
+      top: -25px;
+      left: 50px;
+      border-bottom: 10px solid $white;
+    }
+  }
+}
+
+.memberSliderContainer{
+  width: 100vw;
+  height: 180px;
+  border-top: 2px solid $white;
+  border-bottom: 2px solid $white;
+  position: relative;
+  top: 59px;
+  display: block;
+}
+
+.memberSliderNamesContainer{
+  width: 100%;
+  height: 180px;
+  position: relative;
+  top: 50px;
+
+  .memberNameAndYear{
+
+    &:focus{
+      outline: none;
+    }
+
+    &:hover{
+      cursor: pointer;
+    }
+
+    .memberYear{
+      font-family: "NHaas-Regular", sans-serif;
+      font-size: 1.5rem;
+      color: $lightGray;
+    }
+
+    .memberName{
+      font-family: "Palatino-Roman", serif;
+      font-size: 5rem;
+      transition: color 1s ease;
+    }
+  }
+
+  .slick-current{
+    color: $accent;
+  }
+
+  .slick-list{
+    position: relative;
+    top: -30px;
+  }
+
+}
+
+.featuredType{
+  padding-top: 250px;
+
+  .fontDesc{
+    padding-left: 100px;
+    padding-right: 100px;
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 250px;
+  }
+}
+
+.staSocial{
+  padding-top: 250px;
+
+  .smallTitle{
+    display: block;
+    margin-bottom: 30px;
+  }
+
+  .followUsLink{
+    position: absolute;
+    right: 0;
+    top: 10px;
+    font-family: $font;
+    font-size: 1.2rem;
+    color: $white;
+    text-transform: uppercase;
+
+    &:hover{
+      color: $accent;
+    }
+  }
+
+  .instagramWidget{
+    display: block;
+    margin-bottom: 250px;
+  }
+}
+
+.getInvolved{
+  padding-top: 250px;
+
+  a{
+    color: $white;
+
+    &:hover{
+      color: $accent;
+    }
+  }
+}

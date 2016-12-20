@@ -98,3 +98,17 @@ nav{
     }
   }
 }
+
+.pageTitle{
+  position: absolute;
+  top: 15px;
+  z-index: 0;
+  width: 100%;
+  text-align: center;
+
+  .currentPage{
+    color: $white;
+    font-family: 'Palatino-Italic', serif;
+    font-size: 2.5rem;
+  }
+}

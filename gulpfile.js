@@ -36,7 +36,10 @@ gulp.task('styles', function(){
         console.log(error.message);
         this.emit('end');
     }}))
-    .pipe(sass())
+    .pipe(sass({
+      outputStyle: 'compressed',
+      includePaths: ['node_modules/susy/sass']
+    }).on('error', sass.logError))
     .pipe(autoprefixer('last 2 versions'))
     .pipe(gulp.dest('dist/styles/'))
     .pipe(rename({suffix: '.min'}))

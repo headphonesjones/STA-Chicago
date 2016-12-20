@@ -13,9 +13,23 @@
     line-height: 30rem;
   }
 
-  p{
+  .readMore{
     display: block;
     margin-top: 50px;
+
+    &.smallTitle{
+      a{
+        color: $white;
+        display: block;
+        margin-top: 250px;
+      }
+    }
+  }
+
+  .largest{
+    display: block;
+    margin-top: 150px;
+    margin-bottom: 50px;
   }
 }
 

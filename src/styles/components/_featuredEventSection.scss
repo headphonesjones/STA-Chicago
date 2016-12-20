@@ -7,16 +7,17 @@
     margin-top: 75px;
   }
 
-  .eventDesc{
-    font-family: $fontSerif;
-    font-size: 3.8rem;
-    line-height: 5rem;
-    display: block;
-    margin-bottom: 75px;
-  }
-
   .accentLink{
     display: block;
     margin-bottom: 250px;
   }
+}
+
+.eventDesc{
+  font-family: $fontSerif;
+  font-size: 3.8rem;
+  line-height: 5rem;
+  display: block;
+  margin-bottom: 75px;
+  color: $lightGray;
 }
