@@ -5,7 +5,7 @@
   <title>The Society of Typographic Arts</title>
 </head>
 <body>
-  <?php include("components/nav.php");?>
+  <?php $title = ""; include("components/nav.php");?>
   <?php include("components/home_slider.php");?>
 
   <div class="grayBackground">

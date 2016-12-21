@@ -9,13 +9,12 @@
 @import 'components/footer';
 @import 'components/featuredEventSection';
 @import 'components/sponsors';
+@import 'components/eventsList';
 
 // Import Layouts
 @import 'layouts/home';
 @import 'layouts/about';
 
-// Import Plugins
-// @import 'plugins/plugin';
 
 body{
   background-color: $black;

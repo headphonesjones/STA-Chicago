@@ -1,0 +1,57 @@
+.mainUpcomingEvents{
+  padding-top: 100px;
+}
+
+.mainEventInfo{
+  display: block;
+  margin-top: 10px;
+  border-top: 1px solid $lightGray;
+  padding-top: 40px;
+  height: 220px;
+}
+
+.mainEventDetails{
+  border-top: 1px solid $lightGray;
+  height: 220px;
+  display: block;
+  margin-top: 10px;
+  padding-top: 110px;
+
+  .sansTitle{
+    line-height: 18px;
+    margin: 0;
+    vertical-align: text-bottom;
+  }
+}
+
+.monthDivider{
+  display: block;
+  width: 100%;
+  height: 125px;
+}
+
+.pastEvents{
+  padding-top: 150px;
+}
+
+.pastCommunityEvents{
+  border-top: 1px solid $lightGray;
+  display: block;
+  margin-top: 10px;
+  width: 100%;
+
+  h5{
+    font-size: 1.5rem;
+    font-family: $font;
+    color: $white;
+  }
+
+  .sansTitle{
+    color: $lightGray;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 1.25rem;
+  }
+
+}
