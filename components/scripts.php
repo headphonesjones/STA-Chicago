@@ -3,13 +3,3 @@
         crossorigin="anonymous"></script>
 <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
 <script src="dist/scripts/main.js"></script>
-<script>
-    $(".homeSlider").slick({
-        arrows: false,
-        variableWidth: true,
-        slidesToScroll: 1,
-        centerMode: true,
-        autoplay: true,
-        autoplaySpeed: 4000
-    });
-</script>

@@ -22,5 +22,15 @@
     <?php include("components/footer.php");?>
   </div>
   <?php include("components/scripts.php");?>
+  <script>
+    $(".homeSlider").slick({
+      arrows: false,
+      variableWidth: true,
+      slidesToScroll: 1,
+      centerMode: true,
+      autoplay: true,
+      autoplaySpeed: 4000
+    });
+  </script>
 </body>
 </html>

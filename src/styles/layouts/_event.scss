@@ -1,0 +1,17 @@
+.singleEventInfo{
+  padding-top: 150px;
+
+  .singleEventExtraInfo{
+
+    p{
+      margin: 0;
+    }
+
+    .buyTickets{
+      font-size: 3rem;
+      color: $accent;
+      display: block;
+      margin-bottom: 15px;
+    }
+  }
+}

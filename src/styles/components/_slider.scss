@@ -1,0 +1,27 @@
+.slick-next{
+  right: 20px !important;
+}
+
+.slick-prev{
+  left: 20px !important;
+  position: absolute;
+  z-index:1000;
+}
+
+.eventSlider{
+  display: block;
+  z-index: 1;
+  img{
+    width: 100vw;
+    height: auto;
+  }
+}
+
+.eventSliderPlus{
+  position: relative;
+  z-index: 10;
+  .plusDivider{
+    position: relative;
+    top: -7px;
+  }
+}

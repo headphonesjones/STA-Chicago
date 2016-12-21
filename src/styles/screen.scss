@@ -10,10 +10,12 @@
 @import 'components/featuredEventSection';
 @import 'components/sponsors';
 @import 'components/eventsList';
+@import 'components/slider';
 
 // Import Layouts
 @import 'layouts/home';
 @import 'layouts/about';
+@import 'layouts/event';
 
 
 body{
