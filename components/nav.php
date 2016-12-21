@@ -18,6 +18,6 @@
         <a href="events.php"><li>Come to an event</li></a>
         <a href="http://100.sta-chicago.org/" target="_blank"><li>Submit your work</li></a>
         <a href="member_login.php"><li>Sign in to your account</li></a>
-        <a href="get-involved.php"><li>Get involved</li></a>
+        <a href="join.php"><li>Get involved</li></a>
     </ul>
 </nav>
