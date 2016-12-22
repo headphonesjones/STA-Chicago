@@ -1,3 +1,4 @@
+<div class="container">
 <div class="membershipNav">
     <ul>
         <li><a href="#">My<br>Account</a></li>
@@ -7,4 +8,5 @@
         <li><a href="#">Operations<br>Manual</a></li>
         <li><a href="#">Board<br>Members</a></li>
     </ul>
+</div>
 </div>
