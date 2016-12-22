@@ -7,24 +7,18 @@
 <body>
 <?php $title = "Membership"; include("components/nav.php");?>
 <div class="blackBackground">
-    <?php include("components/membership/tabs.php");?>
+    <?php include("components/membership/membership-nav.php");?>
+</div>
+<div class="whiteBackground">
+    <p>TEXT TEMPORARY</p>
+    <p>TEXT TEMPORARY</p>
+    <p>TEXT TEMPORARY</p>
+    <p>TEXT TEMPORARY</p>
+    <p>TEXT TEMPORARY</p>
+
 </div>
 
-<div class="grayBackground">
 
-</div>
-
-<div class="blackBackground">
-
-</div>
-
-<div class="grayBackground">
-    <?php include("components/getInvolved.php");?>
-</div>
-
-<div class="blackBackground">
-    <?php include("components/sponsors.php");?>
-</div>
 <div class="blackBackground">
     <?php include("components/footer.php");?>
 </div>
