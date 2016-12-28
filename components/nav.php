@@ -6,7 +6,7 @@
         <span class="currentPage"><?php echo $title; ?></span>
     </div>
     <div class="navPlus"></div>
-    <a href="#">
+    <a href="login.php">
         <div class="navMembership fourCorners"></div>
     </a>
     <div class="navBars fourCorners"></div>
@@ -17,7 +17,7 @@
         <a href="about.php"><li>Learn More</li></a>
         <a href="events.php"><li>Come to an event</li></a>
         <a href="http://100.sta-chicago.org/" target="_blank"><li>Submit your work</li></a>
-        <a href="member_login.php"><li>Sign in to your account</li></a>
+        <a href="login.php"><li>Sign in to your account</li></a>
         <a href="join.php"><li>Get involved</li></a>
     </ul>
 </nav>

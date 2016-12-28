@@ -4,7 +4,6 @@
 
 ul.tab-nav {
   list-style: none;
-  border-bottom: 1px solid #bbb;
   padding-left: 5px;
   width:70%;
   margin:auto;
@@ -18,11 +17,18 @@ ul.tab-nav li a.button {
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
   margin-bottom: -1px;
-  border-bottom: none;
+  border-left: 0 !important;
+  border-right: 0 !important;
+  border-top: 0 !important;
+  border-bottom: 3px solid transparent;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  font-family: $font;
 }
 
 ul.tab-nav li a.active.button {
-  border-bottom: 1px solid #fff;
+  border-bottom: 3px solid $black;
+
 }
 
 .tab-content {
@@ -47,6 +53,20 @@ ul.tab-nav li a.active.button {
   width:200px;
   height:200px;
   background:red;
+}
+
+.changePhotoButton{
+  position: relative;
+  top: 165px;
+}
+
+.memberInputs{
+  border-radius: 0 !important;
+  border: 0 !important;
+  border-bottom: 1px solid $black !important;
+  display: block;
+  margin-bottom: 40px;
+  font-family: $font;
 }
 
 /* The switch - the box around the slider */
@@ -108,3 +128,21 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
+
+/* LOGIN PAGE */
+
+.loginContainer{
+  padding-top: 150px;
+}
+
+#rememberMeLabel{
+  display: inline;
+  position: relative;
+  top: -2px;
+}
+
+#loginButton{
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 150px;
+}

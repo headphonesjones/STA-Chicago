@@ -1,6 +1,8 @@
 .membershipNav {
   text-align:center;
   padding-top:150px;
+  position: absolute;
+  top: -10px;
 }
 
 .membershipNav ul {
@@ -18,4 +20,21 @@
 
 .membershipNav ul li a {
   display:block;
+  color: $white;
+  border-bottom: 10px solid transparent;
+  transition: all .3s ease;
+
+  &:hover{
+    color: $accent;
+    border-bottom: 20px solid $black;
+  }
+
+  &.active{
+    color: $accent;
+    border-bottom: 20px solid $black;
+  }
+}
+
+.membershipNavContainer{
+  height: 200px;
 }

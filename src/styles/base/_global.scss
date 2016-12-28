@@ -82,3 +82,37 @@ hr{
   width: 100%;
   margin-bottom: 100px;
 }
+
+.mainInput{
+  border-radius: 0 !important;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+
+.primaryButton, input[type="submit"]{
+  border-radius: 0 !important;
+  border: 1px solid $white;
+  color: $white;
+  text-transform: uppercase;
+  transition: all .3s ease;
+
+  &:hover{
+    color: $accent;
+    border: 1px solid $accent;
+  }
+}
+
+.secondaryButton{
+  border-radius: 0 !important;
+  border: 1px solid $midGray;
+  color: $midGray !important;
+  text-transform: uppercase;
+  transition: all .3s ease;
+  padding: 15px;
+
+  &:hover{
+    color: $black !important;
+    border: 1px solid $black;
+  }
+}
