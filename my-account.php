@@ -13,21 +13,15 @@
     <div class="container">
         <div class="row">
             <ul class="tab-nav">
-                <div class="four columns">
-                    <li>
-                        <a class="button active" href="#profile">Profile</a>
-                    </li>
-                </div>
-                <div class="four columns">
-                    <li>
-                        <a class="button" href="#updatepassword">Update Password</a>
-                    </li>
-                </div>
-                <div class="four columns">
-                    <li>
-                        <a class="button" href="#billinginformation">Billing Information</a>
-                    </li>
-                </div>
+                <li>
+                    <a class="button active" href="#profile">Profile</a>
+                </li>
+                <li>
+                    <a class="button" href="#updatepassword">Update Password</a>
+                </li>
+                <li>
+                    <a class="button" href="#billinginformation">Billing Information</a>
+                </li>
             </ul>
         </div>
     </div>
