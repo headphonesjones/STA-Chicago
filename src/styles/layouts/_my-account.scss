@@ -24,6 +24,8 @@ ul.tab-nav li a.button {
   margin-top: 30px;
   margin-bottom: 40px;
   font-family: $font;
+  font-size:15px;
+  padding:0px;
 }
 
 ul.tab-nav li a.active.button {
@@ -50,14 +52,14 @@ ul.tab-nav li a.active.button {
 
 .memberPhoto {
   display:block;
-  width:200px;
-  height:200px;
+  width:300px;
+  height:300px;
   background:red;
 }
 
 .changePhotoButton{
   position: relative;
-  top: 165px;
+  top: 265px;
 }
 
 .memberInputs{
@@ -73,8 +75,8 @@ ul.tab-nav li a.active.button {
 .switch {
   position: relative;
   display: inline-block;
-  width: 60px;
-  height: 34px;
+  width: 50px;
+  height: 24px;
 }
 
 /* Hide default HTML checkbox */
@@ -96,8 +98,8 @@ ul.tab-nav li a.active.button {
 .slider:before {
   position: absolute;
   content: "";
-  height: 26px;
-  width: 26px;
+  height: 16px;
+  width: 16px;
   left: 4px;
   bottom: 4px;
   background-color: white;
@@ -145,4 +147,36 @@ input:checked + .slider:before {
   display: inline-block;
   margin-top: 20px;
   margin-bottom: 150px;
+}
+
+.row.margin {
+  margin:48px 0px 24px 0px;
+}
+
+.switch.margin {
+  margin-top:8px;
+}
+
+.row.save {
+  margin:24px 0px 64px 0px;
+}
+
+.save .secondaryButton {
+  padding:15px 60px;
+}
+
+.upgrade {
+  position:relative;
+  top:50px;
+}
+
+.cancel {
+  position:relative;
+  top:80px;
+  font-size:11px;
+  color:#ABABAB !important;
+}
+
+.center.columns {
+  text-align:center;
 }

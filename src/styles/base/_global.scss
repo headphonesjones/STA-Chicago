@@ -116,3 +116,11 @@ hr{
     border: 1px solid $black;
   }
 }
+
+input[type=email], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=url], select, textarea {
+  padding:6px 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom:10px;
+}

@@ -45,7 +45,7 @@
                                 <a class="secondaryButton changePhotoButton" href="#">Change Photo</a>
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="row margin">
                             <div class="twelve columns">
                                 <p class="smallTitle">My Profile</p>
                             </div>
@@ -90,47 +90,47 @@
                                 </label>
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="row margin">
                             <div class="twelve columns">
-                                <h3>SOCIAL LINKS</h3>
+                                <p class="smallTitle">SOCIAL LINKS</p>
                             </div>
                         </div>
                         <div class="row">
                             <div class="two columns">
-                                <label class="switch">
+                                <label class="switch margin">
                                     <input type="checkbox">
                                     <div class="slider round"></div>
                                 </label>
                             </div>
                             <div class="ten columns">
-                                <input class="u-full-width memberInputs" type="email" placeholder="test@mailbox.com" id="exampleEmailInput">
+                                <input class="u-full-width memberInputs" type="text" placeholder="Twitter">
                             </div>
                         </div>
                         <div class="row">
                             <div class="two columns">
-                                <label class="switch">
+                                <label class="switch margin">
                                     <input type="checkbox">
                                     <div class="slider round"></div>
                                 </label>
                             </div>
                             <div class="ten columns">
-                                <input class="u-full-width memberInputs" type="email" placeholder="test@mailbox.com" id="exampleEmailInput">
+                                <input class="u-full-width memberInputs" type="text" placeholder="Dribbble">
                             </div>
                         </div>
                         <div class="row">
                             <div class="two columns">
-                                <label class="switch">
+                                <label class="switch margin">
                                     <input type="checkbox">
                                     <div class="slider round"></div>
                                 </label>
                             </div>
                             <div class="ten columns">
-                                <input class="u-full-width memberInputs" type="email" placeholder="test@mailbox.com" id="exampleEmailInput">
+                                <input class="u-full-width memberInputs" type="text" placeholder="Blog">
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="row save">
                             <div class="twelve columns">
-                                <a class="button" href="#">Save</a>
+                                <a class="secondaryButton" href="#">Save</a>
                             </div>
                         </div>
                     </div>
@@ -138,26 +138,69 @@
                   <div class="tab-pane" id="updatepassword">
                     <div class="row">
                         <div class="twelve columns">
-                            <input class="u-full-width" type="email" placeholder="test@mailbox.com" id="exampleEmailInput">
+                            <input class="u-full-width memberInputs" type="password" placeholder="Old Password">
                         </div>
                     </div>
                     <div class="row">
                         <div class="twelve columns">
-                            <input class="u-full-width" type="email" placeholder="test@mailbox.com" id="exampleEmailInput">
+                            <input class="u-full-width memberInputs" type="password" placeholder="New Password">
                         </div>
                     </div>
                     <div class="row">
                         <div class="twelve columns">
-                            <input class="u-full-width" type="email" placeholder="test@mailbox.com" id="exampleEmailInput">
+                            <input class="u-full-width memberInputs" type="password" placeholder="Confirm New Password">
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="twelve columns">
-                            <a class="button" href="#">Change</a>
+                    <div class="row save">
+                        <div class="twelve columns center">
+                            <a class="secondaryButton" href="#">Change</a>
                         </div>
                     </div>
                   </div>
-                  <div class="tab-pane" id="billinginformation">...</div>
+                  <div class="tab-pane" id="billinginformation">
+                    <div class="row">
+                        <div class="eight columns">
+                            <p class="smallTitle">Your Current Plan</p>
+                            <h5>Professional<br>Membership</h5>
+                            <p>automatically renew December 20, 2016</p>
+                        </div>
+                        <div class="four columns center">
+                            <a class="secondaryButton upgrade" href="#">Upgrade Plan</a>
+                            <a class="cancel" href="#">CANCEL YOUR MEMBERSHIP</a>
+                        </div>
+                    </div>
+                    <hr/>
+                    <div class="row">
+                        <div class="twelve columns">
+                            <p class="smallTitle">Credit Card Information</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="eight columns">
+                            <input class="u-full-width memberInputs" type="password" placeholder="Confirm New Password">
+                        </div>
+                        <div class="four columns center">
+                            <a class="secondaryButton" href="#">Change Card</a>
+                        </div>
+                    </div>
+                    <hr/>
+                    <div class="row">
+                        <div class="twelve columns">
+                            <p class="smallTitle">Invoices</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="four columns">
+                            <p>Feb 29, 2016</p>
+                        </div>
+                        <div class="four columns">
+                            <p>Professional</p>
+                        </div>
+                        <div class="four columns">
+                            <p>$90</p>
+                        </div>
+                    </div>
+                  </div>
                 </div>
             </div>
         </div>
