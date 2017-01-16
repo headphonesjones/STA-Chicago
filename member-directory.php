@@ -9,7 +9,7 @@
 <div class="blackBackground membershipNavContainer">
     <?php include("components/membership/membership-nav.php");?>
 </div>
-<div class="whiteBackground">
+<div class="whiteBackground membershipContent">
     <div class="container">
         <div class="row">
             <div class="eight columns">
@@ -25,49 +25,291 @@
                 </label>
             </div>
             <div class="two columns">
-                <p>Available for work</p>
+                <p class="available">Available for work</p>
             </div>
         </div>
         <div class="row">
-            <div class="three columns">
+            <div class="three columns directoryMember">
                 <div class="row">
                     <div class="twelve columns">
-                        <div class="memberPhoto"></div>
+                        <div class="memberPhoto2"></div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="eleven columns">
+                    <div class="eleven columns directoryMemberInfo">
                         <p>Allison Catuira</p>
+                        <p>Art Director at Anthem</p>
+                        <p><a href=#">allisoninc.com</a></p>
                     </div>
-                    <div class="one columns">
-                        <span>Email Icon</span>
+                    <div class="one columns memberEmail">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="directoryMemberSocialIcon">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    </div>
+                    <div class="directoryMemberSocialIcon">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </div>
+                    <div class="directoryMemberSocialIcon">
+                        <i class="fa fa-dribbble" aria-hidden="true"></i>
+                    </div>
+                    <div class="directoryMemberSocialIcon">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </div>
+                    <div class="directoryMemberSocialIcon">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <hr class="directoryMemberHr">
+            </div>
+            <div class="three columns directoryMember">
                 <div class="row">
                     <div class="twelve columns">
-                        <p>Art Director at Anthem</p>
+                        <div class="memberPhoto2"></div>
                     </div>
-                </div>
-                <div class="twelve columns">
-                    <p><a href=#">allisoninc.com</a></p>
                 </div>
                 <div class="row">
-                    <div class="two columns">
-                        <span>LinkedIn Icon</span>
+                    <div class="eleven columns directoryMemberInfo">
+                        <p>Allison Catuira</p>
+                        <p>Art Director at Anthem</p>
+                        <p><a href=#">allisoninc.com</a></p>
                     </div>
-                    <div class="two columns">
-                        <span>Twitter Icon</span>
-                    </div>
-                    <div class="two columns">
-                        <span>Drbbble Icon</span>
-                    </div>
-                    <div class="two columns">
-                        <span>Facebook Icon</span>
-                    </div>
-                    <div class="two columns">
-                        <span>Instagram Icon</span>
+                    <div class="one columns memberEmail">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="directoryMemberSocialIcon">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    </div>
+                    <div class="directoryMemberSocialIcon">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </div>
+                    <div class="directoryMemberSocialIcon">
+                        <i class="fa fa-dribbble" aria-hidden="true"></i>
+                    </div>
+                    <div class="directoryMemberSocialIcon">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </div>
+                    <div class="directoryMemberSocialIcon">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <hr class="directoryMemberHr">
+            </div>
+            <div class="three columns directoryMember">
+                <div class="row">
+                    <div class="twelve columns">
+                        <div class="memberPhoto2"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="eleven columns directoryMemberInfo">
+                        <p>Allison Catuira</p>
+                        <p>Art Director at Anthem</p>
+                        <p><a href=#">allisoninc.com</a></p>
+                    </div>
+                    <div class="one columns memberEmail">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="directoryMemberSocialIcon">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    </div>
+                    <div class="directoryMemberSocialIcon">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </div>
+                    <div class="directoryMemberSocialIcon">
+                        <i class="fa fa-dribbble" aria-hidden="true"></i>
+                    </div>
+                    <div class="directoryMemberSocialIcon">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </div>
+                    <div class="directoryMemberSocialIcon">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <hr class="directoryMemberHr">
+            </div>
+            <div class="three columns directoryMember">
+                <div class="row">
+                    <div class="twelve columns">
+                        <div class="memberPhoto2"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="eleven columns directoryMemberInfo">
+                        <p>Allison Catuira</p>
+                        <p>Art Director at Anthem</p>
+                        <p><a href=#">allisoninc.com</a></p>
+                    </div>
+                    <div class="one columns memberEmail">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="directoryMemberSocialIcon">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    </div>
+                    <div class="directoryMemberSocialIcon">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </div>
+                    <div class="directoryMemberSocialIcon">
+                        <i class="fa fa-dribbble" aria-hidden="true"></i>
+                    </div>
+                    <div class="directoryMemberSocialIcon">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </div>
+                    <div class="directoryMemberSocialIcon">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <hr class="directoryMemberHr">
+            </div>
+        </div>
+        <div class="row">
+            <div class="three columns directoryMember">
+                <div class="row">
+                    <div class="twelve columns">
+                        <div class="memberPhoto2"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="eleven columns directoryMemberInfo">
+                        <p>Allison Catuira</p>
+                        <p>Art Director at Anthem</p>
+                        <p><a href=#">allisoninc.com</a></p>
+                    </div>
+                    <div class="one columns memberEmail">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="directoryMemberSocialIcon">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    </div>
+                    <div class="directoryMemberSocialIcon">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </div>
+                    <div class="directoryMemberSocialIcon">
+                        <i class="fa fa-dribbble" aria-hidden="true"></i>
+                    </div>
+                    <div class="directoryMemberSocialIcon">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </div>
+                    <div class="directoryMemberSocialIcon">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <hr class="directoryMemberHr">
+            </div>
+            <div class="three columns directoryMember">
+                <div class="row">
+                    <div class="twelve columns">
+                        <div class="memberPhoto2"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="eleven columns directoryMemberInfo">
+                        <p>Allison Catuira</p>
+                        <p>Art Director at Anthem</p>
+                        <p><a href=#">allisoninc.com</a></p>
+                    </div>
+                    <div class="one columns memberEmail">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="directoryMemberSocialIcon">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    </div>
+                    <div class="directoryMemberSocialIcon">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </div>
+                    <div class="directoryMemberSocialIcon">
+                        <i class="fa fa-dribbble" aria-hidden="true"></i>
+                    </div>
+                    <div class="directoryMemberSocialIcon">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </div>
+                    <div class="directoryMemberSocialIcon">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <hr class="directoryMemberHr">
+            </div>
+            <div class="three columns directoryMember">
+                <div class="row">
+                    <div class="twelve columns">
+                        <div class="memberPhoto2"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="eleven columns directoryMemberInfo">
+                        <p>Allison Catuira</p>
+                        <p>Art Director at Anthem</p>
+                        <p><a href=#">allisoninc.com</a></p>
+                    </div>
+                    <div class="one columns memberEmail">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="directoryMemberSocialIcon">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    </div>
+                    <div class="directoryMemberSocialIcon">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </div>
+                    <div class="directoryMemberSocialIcon">
+                        <i class="fa fa-dribbble" aria-hidden="true"></i>
+                    </div>
+                    <div class="directoryMemberSocialIcon">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </div>
+                    <div class="directoryMemberSocialIcon">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <hr class="directoryMemberHr">
+            </div>
+            <div class="three columns directoryMember">
+                <div class="row">
+                    <div class="twelve columns">
+                        <div class="memberPhoto2"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="eleven columns directoryMemberInfo">
+                        <p>Allison Catuira</p>
+                        <p>Art Director at Anthem</p>
+                        <p><a href=#">allisoninc.com</a></p>
+                    </div>
+                    <div class="one columns memberEmail">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="directoryMemberSocialIcon">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    </div>
+                    <div class="directoryMemberSocialIcon">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </div>
+                    <div class="directoryMemberSocialIcon">
+                        <i class="fa fa-dribbble" aria-hidden="true"></i>
+                    </div>
+                    <div class="directoryMemberSocialIcon">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </div>
+                    <div class="directoryMemberSocialIcon">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <hr class="directoryMemberHr">
             </div>
         </div>
     </div>

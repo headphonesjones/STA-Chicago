@@ -10,7 +10,7 @@
     <?php include("components/membership/membership-nav.php");?>
 </div>
 <div class="whiteBackground">
-    <div class="container">
+    <div class="container videosContainer">
         <div class="row">
             <div class="five columns">
                 <div>
@@ -26,20 +26,47 @@
             </div>
         </div>
         <div class="row">
-            <div class="three columns">
+            <div class="four columns">
                 <div class="row">
                     <div class="twelve columns">
-                        <div class="memberPhoto"></div>
+                        <div class="eventVideo"></div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="twelve columns">
-                        <p>Event Title</p>
+                        <p class="videoEventTitle">Event Title</p>
+                        <p class="videoEventSubtitle">Subtitle</p>
                     </div>
                 </div>
-                <div class="twelve columns">
-                    <p>Subtitle</p>
+                <hr>
+            </div>
+            <div class="four columns">
+                <div class="row">
+                    <div class="twelve columns">
+                        <div class="eventVideo"></div>
+                    </div>
                 </div>
+                <div class="row">
+                    <div class="twelve columns">
+                        <p class="videoEventTitle">Event Title</p>
+                        <p class="videoEventSubtitle">Subtitle</p>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <div class="four columns">
+                <div class="row">
+                    <div class="twelve columns">
+                        <div class="eventVideo"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="twelve columns">
+                        <p class="videoEventTitle">Event Title</p>
+                        <p class="videoEventSubtitle">Subtitle</p>
+                    </div>
+                </div>
+                <hr>
             </div>
         </div>
     </div>

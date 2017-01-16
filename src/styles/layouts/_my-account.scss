@@ -57,6 +57,14 @@ ul.tab-nav li a.active.button {
   background:red;
 }
 
+.memberPhoto2 {
+  display:block;
+  width:100%;
+  height:200px;
+  background:red;
+  margin-bottom: 20px;
+}
+
 .changePhotoButton{
   position: relative;
   top: 265px;
@@ -187,4 +195,64 @@ ul.tab-nav li {
 
 hr.margin {
   margin: 24px 0 48px 0px;
+}
+
+.memberEmail{
+  i{
+    position: relative;
+    right: 10px;
+    font-size: 18px;
+  }
+}
+
+.membershipContent{
+  display: block;
+  padding-top: 50px;
+}
+
+.directoryMemberInfo{
+
+  p{
+    color: $darkGray;
+    margin-bottom: 0px;
+
+    a{
+      color: $accent;
+    }
+  }
+}
+
+.directoryMemberSocialIcon{
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  @include gallery(1 of 5);
+  text-align: center;
+
+  i{
+    font-size: 20px;
+  }
+}
+
+.directoryMemberHr{
+  margin-bottom: 50px;
+}
+
+.available{
+  font-size: 13px;
+}
+
+.eventVideo{
+  width: 100%;
+  height: 200px;
+  background-color: $darkGray;
+}
+
+.videoEventTitle{
+  margin-bottom: 0px;
+  margin-top: 20px;
+}
+
+.videosContainer{
+  padding-top: 50px;
 }

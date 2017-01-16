@@ -9,7 +9,7 @@
 <div class="blackBackground membershipNavContainer">
     <?php include("components/membership/membership-nav.php");?>
 </div>
-<div class="whiteBackground">
+<div class="whiteBackground membershipContent">
     <div class="container">
         <div class="row">
             <ul class="tab-nav">

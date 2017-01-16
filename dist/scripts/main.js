@@ -35,3 +35,30 @@ $(function() {
         return false;
     });
 });
+
+$(document).ready(function () {
+    if(window.location.href.indexOf("my-account") > -1) {
+        $(".membershipNav ul li a").removeClass("active");
+        $("#myAccountNavItem a").addClass("active");
+    }
+    if(window.location.href.indexOf("member-directory") > -1) {
+        $(".membershipNav ul li a").removeClass("active");
+        $("#memberDirectoryNavItem a").addClass("active");
+    }
+    if(window.location.href.indexOf("event-videos") > -1) {
+        $(".membershipNav ul li a").removeClass("active");
+        $("#eventVideosNavItem a").addClass("active");
+    }
+    if(window.location.href.indexOf("member-newsletter") > -1) {
+        $(".membershipNav ul li a").removeClass("active");
+        $("#memberNewsletterNavItem a").addClass("active");
+    }
+    if(window.location.href.indexOf("operations-manual") > -1) {
+        $(".membershipNav ul li a").removeClass("active");
+        $("#operationsManualNavItem a").addClass("active");
+    }
+    if(window.location.href.indexOf("board-members") > -1) {
+        $(".membershipNav ul li a").removeClass("active");
+        $("#boardMembersNavItem a").addClass("active");
+    }
+});
