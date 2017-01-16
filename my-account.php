@@ -163,7 +163,7 @@
                             <a class="cancel" href="#">CANCEL YOUR MEMBERSHIP</a>
                         </div>
                     </div>
-                    <hr/>
+                    <hr class="margin"/>
                     <div class="row">
                         <div class="twelve columns">
                             <p class="smallTitle">Credit Card Information</p>
@@ -177,7 +177,7 @@
                             <a class="secondaryButton" href="#">Change Card</a>
                         </div>
                     </div>
-                    <hr/>
+                    <hr class="margin"/>
                     <div class="row">
                         <div class="twelve columns">
                             <p class="smallTitle">Invoices</p>
