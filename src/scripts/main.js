@@ -5,6 +5,7 @@ $(".navBars").click(function(){
    if($(this).hasClass("navOpen")){
        $(this).removeClass("navOpen");
        $("nav").removeClass("active");
+       $("body").css("overflow","auto");
 
        setTimeout(function(){
            $("nav").css("display", "none");
@@ -16,6 +17,7 @@ $(".navBars").click(function(){
 
        setTimeout(function(){
            $("nav").addClass("active");
+           $("body").css("overflow","hidden");
        }, 100);
    }
 });
