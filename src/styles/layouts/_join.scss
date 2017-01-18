@@ -1,13 +1,15 @@
 .joinContainer{
-  padding-top: 250px;
+  padding: 250px 0px;
 }
 
 .joinOption{
   border: 1px solid $lightGray;
   padding: 20px;
-  height: 230px;
   transition: all .5s ease;
   text-align: center;
+  display:block;
+  margin-bottom:48px;
+  font-family: NHaas-Regular,sans-serif;
 
   &:hover{
     border: 1px solid $accent;
@@ -35,4 +37,27 @@
     margin-top: 30px;
     margin-bottom: 10px;
   }
+
+  .smallTitle {
+    border-bottom: solid 2px white;
+    padding-bottom:24px;
+    margin-bottom:24px;
+  }
+}
+
+.feature {
+  border-top:solid 2px #ABABAB;
+  padding-top:12px;
+}
+
+.price {
+  font-size:1.4em;
+}
+
+.packageTitle {
+  margin-bottom:0px;
+}
+
+.faqContainer {
+  padding-top:125px;
 }
