@@ -1,0 +1,30 @@
+.videosContainer span {
+  font-family: NHaas-Regular,sans-serif;
+}
+
+.videosContainer .filter {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  margin-bottom: -1px;
+  border-left: 0 !important;
+  border-right: 0 !important;
+  border-top: 0 !important;
+  border-bottom: 3px solid transparent;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  font-family: $font;
+  font-size:15px;
+  color:$black;
+  margin-right:10px;
+  margin-left:10px;
+  padding-bottom:10px;
+  transition: all .5s ease;
+}
+
+.videosContainer .filter.active, .videosContainer .filter:hover {
+  border-bottom: 3px solid $black;
+}
+
+.sortVideos {
+  padding-top:7px;
+}

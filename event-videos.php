@@ -13,12 +13,12 @@
     <div class="container videosContainer">
         <div class="row">
             <div class="five columns">
-                <div>
+                <div class="sortVideos">
                     <span>Sort by:</span>
-                    <a href="#">Latest</a>
-                    <a href="#">All</a>
-                    <a href="#">STA</a>
-                    <a href="#">Community</a>
+                    <a class="filter active" href="#">Latest</a>
+                    <a class="filter" href="#">All</a>
+                    <a class="filter" href="#">STA</a>
+                    <a class="filter" href="#">Community</a>
                 </div>
             </div>
             <div class="seven columns">
